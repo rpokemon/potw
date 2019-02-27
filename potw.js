@@ -167,7 +167,7 @@ function get_potw() {
             );
 
             potw_output += potw_footer;
-            document.getElementById("potw_output").innerText = potw_output;
+            document.getElementById("potw_output").value = potw_output;
             
             return;
         }
